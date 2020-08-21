@@ -1,0 +1,287 @@
+@charset "ISO-8859-1";
+
+#promptUser {
+	color: #07594D;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#legend {
+	text-align: left;
+	background-color: #FEE3A0;
+	border: 2px solid #07594D;
+	border-radius: 20px;
+	margin: 5px;
+	padding: 5px;
+	color: #07594D;
+	font-size: 13px;
+	font-weight: bold;
+	opacity: 77%;
+}
+
+#legend h3 {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 3px;
+	background-color: #FDC846;
+	border: 2px solid #07594D;
+	border-radius: 20px;
+
+}
+
+#legend img {
+	vertical-align: middle;
+	padding: 3px;
+	margin: 3px;
+}
+
+#locationList .card {
+  padding: 10px;
+}
+
+#UserLocation {
+	display: none;
+}
+
+#toast-container {
+  top: 50%;
+  bottom: unset;
+}
+
+.toast {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (min-width: 768px) {
+	.container {
+		width: 80%;
+		max-width: 800px;
+	}
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  height: auto; 
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #FEE3A0;
+  margin: 0 2px;
+  border: 2px solid #07594D;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.modal-content .iw-title {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 40px;
+	margin: 0;
+}
+
+.modal-content table {
+	width: 200px;
+	margin: 5px;
+	background-color: #FEE3A0;
+	border-collapse: collapse;	
+}
+
+.modal-content table, th, td {
+	border: 1px solid #07594D;
+}
+
+
+.modal-content #mySubmit {
+	width: 200px;
+	padding: 0 10px;
+	margin: 5px;
+	font-size: 12px;
+	border: 2px solid #07594D;
+	border-radius: 15px;
+	white-space: normal;
+}
+
+/* The Close Button */
+.close {
+  color: #07594D;
+  padding: 0 5px;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#map {
+	height: 500px;
+	border: 4px solid #07594D;
+	border-radius: 20px;
+	margin-bottom: 5px;
+}
+
+#iw-container {
+	border: 2px solid #07594D;
+	border-radius: 20px;
+	max-width: 300px;
+	max-height: 400px;
+	height: 100%;
+	margin: 3px;
+	background-color: #FEE3A0;
+	color: #07594D;
+}
+
+#iw-container p {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+#iw-container .iw-title {	
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 2px 5px;
+	margin: 0;
+}
+
+#iw-container table {
+	width: 150px;
+	margin: 5px;
+	background-color: #FEE3A0;
+	border-collapse: collapse;	
+}
+
+#iw-container table, th, td {
+	border: 1px solid #07594D;
+}
+
+#iw-container .iw-content {
+	font-stretch: condensed;
+	text-align: left;
+	font-size: 11px;
+	padding: 2px;
+}
+
+#iw-container #mySubmit {
+	width: 150px;
+	padding: 0 10px;
+	margin: 5px;
+	font-size: 12px;
+	border: 2px solid #07594D;
+	border-radius: 15px;
+	white-space: normal;
+}
+
+#iw-container img {
+	margin: 5px;
+}
+
+body {
+	border: 4px solid #07594D;
+	border-radius: 20px;
+	margin: 5px;
+	padding: 5px;
+	background-color: #FEE3A0;
+	background-size: 100% 100%;
+}
+
+h1 {
+	color: #07594D;
+	margin-block-start: 5px;
+	margin-block-end: 5px;
+}
+
+h2 {
+	color: #07594D;
+	margin-block-start: 0;
+	margin-block-end: 5px;
+}
+
+table {
+	color: #07594D;
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-block-start: 5px;
+	margin-block-end: 5px;
+	color: #07594D;
+}
+
+
+#mySubmit, #showMe, #showInput {
+	width: 300px;
+	height: auto;
+	font-size: 20px;
+	font-weight: bold;
+	color: #07594D;
+	background-color: #FDC846;
+	border: 5px solid #07594D;
+	border-radius: 15px;
+	padding: 2px;
+}
+
+#logo {
+	margin: 5px;
+	height: 300px;
+	width: 300px;
+	background-image: url(campusparkus.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@media screen and (max-width: 320px) {
+	#logo {
+		height: 200px;
+		width: 200px;
+	}
+	
+	#mySubmit {
+		width: 200px;
+		border: 3px solid #07594D;
+	}
+	
+	#map {
+	width: 95%;
+	height: 400px;
+}
+}
+
+@media screen and (min-width: 321px) and (max-width: 640px) {
+	#logo {
+		height: 250px;
+		width: 250px;
+	}
+	
+	#map {
+	width: 95%;
+	height: 500px;
+	}
+	
+	#mySubmit {
+		width: 250px;
+		border: 4px solid #07594D;
+	}
+}

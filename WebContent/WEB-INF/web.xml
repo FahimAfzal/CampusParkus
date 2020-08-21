@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>CampusParkus</display-name>
+  
+  <welcome-file-list>
+	<welcome-file>CP_Home.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+	<description></description>
+	<servlet-name>TierServlet</servlet-name>
+	<servlet-class>TierServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>TierServlet</servlet-name>
+	<url-pattern>/TierServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<description></description>
+	<servlet-name>VisitorServlet</servlet-name>
+	<servlet-class>VisitorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>VisitorServlet</servlet-name>
+	<url-pattern>/VisitorServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<description></description>
+	<servlet-name>StaffServlet</servlet-name>
+	<servlet-class>StaffServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>StaffServlet</servlet-name>
+	<url-pattern>/StaffServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<description></description>
+	<servlet-name>MapListServlet</servlet-name>
+	<servlet-class>MapListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>MapListServlet</servlet-name>
+	<url-pattern>/MapListServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<description></description>
+	<servlet-name>StudentServlet</servlet-name>
+	<servlet-class>StudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>StudentServlet</servlet-name>
+	<url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<description></description>
+	<servlet-name>contactUSServlet</servlet-name>
+	<servlet-class>contactUSServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>contactUSServlet</servlet-name>
+	<url-pattern>/contactUSServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

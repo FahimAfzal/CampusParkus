@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+body{
+	margin : 0;
+	padding : 0;
+	text-align : center;
+	
+}
+
+form {
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	
+}
+.formContact
+{
+	width : 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom : 1px solid gray;
+	color : #07594D;
+	font-size : 18px;
+	font-family : sans-serif;
+	margin-bottom : 16px;
+}
+input {
+	height : 45px;
+}
+.formContact-submit {
+	width : 600px;
+	background : #FDC846;
+	border-color :transparent;
+	color : #07594D;
+	font-size : 20px;
+	font-weight : bold;
+	letter-spacing: 2px;
+	height : 50px;
+	margin-top : 20px;
+	
+	
+	
+}
+.formContact-submit:hover {
+	cursor : pointer;
+}
